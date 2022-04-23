@@ -55,9 +55,20 @@ public class Payload {
         return "{\n" +
                 "\n" +
                 "\"name\":\"Learn Appium Automation with Java2\",\n" +
-                "\"isbn\":\"sp1\",\n" +
-                "\"aisle\":\"005\",\n" +
+                "\"isbn\":\""+isbn+"\",\n" +
+                "\"aisle\":\""+aisle+"\",\n" +
                 "\"author\":\"John foe\"\n" +
                 "}\n";
     }
+
+    public static String deleteBook(String isbn , String aisle){
+        return "{\n" +
+                " \n" +
+                "\"ID\" : \""+isbn+aisle+"\"\n" +
+                " \n" +
+                "} \n";
+
+    }
+
+
 }
