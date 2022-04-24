@@ -1,4 +1,4 @@
-package googlemapapi;
+package allapicode;
 
 import com.Files.Payload;
 import com.Files.ReusableMethod;
