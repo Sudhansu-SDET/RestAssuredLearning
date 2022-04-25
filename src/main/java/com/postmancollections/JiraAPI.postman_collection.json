@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "2f370a03-8eb2-4ed6-a848-d80a24715b77",
+		"name": "JiraAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CreateSessionCookie",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"username\": \"sudhansu\", \"password\": \"qwerty12345\" }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/rest/auth/1/session",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rest",
+						"auth",
+						"1",
+						"session"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateIssue",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"fields\": {\r\n        \"project\": {\r\n            \"key\": \"RES\"\r\n        },\r\n        \"summary\": \"something's wrong\",\r\n        \"description\": \"description\",\r\n        \"issuetype\": {\r\n            \"name\": \"bug\"\r\n        }\r\n     }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/rest/api/2/issue",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rest",
+						"api",
+						"2",
+						"issue"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,6 +1,6 @@
 package allapicode;
 
-import com.Files.Payload;
+import com.files.Payload;
 import io.restassured.path.json.JsonPath;
 import org.testng.Assert;
 

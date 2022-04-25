@@ -1,4 +1,4 @@
-package com.Files;
+package com.files;
 
 public class Payload {
 

@@ -1,7 +1,7 @@
 package libraryapi;
 
-import com.Files.Payload;
-import com.Files.ReusableMethod;
+import com.files.Payload;
+import com.files.ReusableMethod;
 import io.restassured.RestAssured;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;

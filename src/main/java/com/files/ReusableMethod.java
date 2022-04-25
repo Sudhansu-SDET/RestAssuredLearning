@@ -1,4 +1,4 @@
-package com.Files;
+package com.files;
 
 import io.restassured.path.json.JsonPath;
 

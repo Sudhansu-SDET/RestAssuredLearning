@@ -1,7 +1,7 @@
 package allapicode;
 
-import com.Files.Payload;
-import com.Files.ReusableMethod;
+import com.files.Payload;
+import com.files.ReusableMethod;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import org.testng.Assert;
